@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Donovan's Photography</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/flexbox.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <div class="flexheader">
+                <a href="Index.html">
+                    <img src="Images/logo.png" alt="camera logo " height="70" id="logo">
+                </a>
+                <nav class="flexnav">
+                    <ul>
+                        <li><a href="Index.html">HOME</a></li>
+                        <li><a href="Nikon%20Photos.html">NIKON PHOTOS</a></li>
+                        <li><a href="iPhone%20Photos.html">IPHONE PHOTOS</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="flexmain">
+            <div class="flexcontact">
+                <h2>Contact Us!</h2>
+                <form>
+                    <p>
+                        <label for="firstname">First Name:</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Harry">
+                    </p>
+                    <p>
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Potter">
+                    </p>
+                    <p>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone" placeholder="7814524077" maxlength="10">
+                    </p>
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="hpotter7@mail.naz.edu" maxlength="50">
+                    </p>
+                    <p>
+                        <label for="how-you-heard">How did you hear about us?</label>
+                        <select name="how-you-heard" id="how-you-heard">
+                            <option value="owl">Owl</option>
+                            <option value="email">Email</option>
+                            <option value="ad">Advertisement</option>
+                            <option value="friend">Friend</option>
+                            <option value="web">Website</option>
+                            <option value="search">Google Search</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="comments">Comments:</label>
+                        <textarea name="comments" id="comments" rows="5" cols="40"></textarea>
+                    </p>
+                    <p>
+                        <label for="myChoice">Rate this website:</label> Poor <input type="range" name="myChoice" id="myChoice" min="1" max="100"> Totally Awesome
+                    </p>
+                    <p>
+                        <label for="join-newsletter">Would you like to join our newsletter and/or set up an account?</label>
+                        <input type="checkbox" name="join-newsletter" id="join-newsletter" value="newsletter">Newsletter
+                        <input type="checkbox" name="join-newsletter" id="join-newsletter2" value="account">Account
+                        <input type="checkbox" name="join-newsletter" id="join-newsletter3" value="neither">Neither
+                    </p>
+                    <p>
+                        <label for="copy-response">Would you like a copy of your answers emailed to you?</label>
+                        <input type="radio" name="copy-response" id="copy-response" value="yes">Yes
+                        <input type="radio" name="copy-response" id="copy-response2" value="no">No
+                    </p>
+                    <p>
+                        <label></label>
+                        <input type="submit" value="Submit" style="background-color: darkcyan; color: white; font-family: sans-serif">
+                        <input type="reset" value="Reset" style="background-color: darkcyan; color: white; font-family: sans-serif">
+                    </p>
+                </form>
+            </div>
+        </main>
+        <footer class="flexfooter">
+            <div style="color: darkslategray; padding-top:  15px">
+                <p>&copy; Nazareth College 2018</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

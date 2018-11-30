@@ -1,0 +1,55 @@
+.flexcontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #67cbc3;
+    padding: 15px;
+}
+
+.flexheader {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkcyan;
+    flex-direction: row;
+}
+
+.flexmain {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.flexbio1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
+    
+}
+
+.flexcontact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fleximg {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flexfooter {
+    display: flex;
+    background-color: lightcyan;
+    align-content: center;
+}
