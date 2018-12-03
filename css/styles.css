@@ -114,6 +114,15 @@ h2 {
     margin: 0;
 }
 
-@media {
-    
-}
+@media screen and (max-width: 30rem) {
+    header,
+    main, 
+    footer,
+    form p {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }   
+    form input, textarea {
+        margin: 2px 0;
+    }
